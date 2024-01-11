@@ -42,7 +42,7 @@ Options:
   -d, --local-port     Port local PlantUML server is running on                                 [string] [default: 8792]
   -f, --file-type      Output filetype of PlantUML diagram export
                                                           [string] [choices: "svg", "png", "txt", "md"] [default: "svg"]
-  -r, --remote-server  Server used for rendering images.          [string] [default: "http://www.plantuml.com/plantuml"]
+  -r, --remote-server  Server used for rendering images.          [string] [default: "https://www.plantuml.com/plantuml"]
   -o, --output         Output path of export. Defaults to input-file-path.<file-type>                           [string]
   -O, --open           Automatically open a browser window in live-reload                       [string] [default: true]
   -R, --root           Root of your UML files. This allows you to include files from root
@@ -63,7 +63,7 @@ Examples:
 
 When exporting to Markdown, e.g. `water-uml export example.puml -f md`, a Markdown file will be created with embeded image. e.g. `![filename](server/svg/encodedPlantUMLString)`.
 
-By default, the default PlantUML server [http://www.plantuml.com/plantuml](http://www.plantuml.com/plantuml) is used to render the image, so you can include these in your live Markdown files.
+By default, the default PlantUML server [https://www.plantuml.com/plantuml](https://www.plantuml.com/plantuml) is used to render the image, so you can include these in your live Markdown files.
 
 If you want to use a private live PlantUML server for rendering embeded Markdown images, pass the server URL using the `-r` or `--remote-server` options.
 

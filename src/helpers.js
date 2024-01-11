@@ -8,7 +8,7 @@ const {
   FILE_NAME, // The name of the file in diagrams-in
   USE_LOCAL_SERVER = false, // Use local docker server. See # Using Local Server section of README.md
   LOCAL_SERVER_PORT = '8792', // Local docker server port
-  REMOTE_PUML_SERVER = 'http://www.plantuml.com/plantuml', // Server used for rendering embeded Markdown images
+  REMOTE_PUML_SERVER = 'https://www.plantuml.com/plantuml', // Server used for rendering embeded Markdown images
   OUTPUT_OVERRIDE, // Output file path override
   SCRIPT_PATH,
   ROOT = process.cwd(),
